@@ -12,9 +12,7 @@ RUN cd VQMT/ \
     && make \
     && make install \
     && make clean
-#RUN sh ./compile.sh
-#RUN sh compile-static.sh
-#RUN mkdir -p /data
+
 CMD ["/bin/bash"]
 
 #FROM evalvid as evalvidffmpeg
